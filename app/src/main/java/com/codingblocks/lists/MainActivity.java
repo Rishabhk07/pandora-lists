@@ -93,6 +93,10 @@ public class MainActivity extends AppCompatActivity {
         newStudents.add(new Student("H","Pandora"));
         newStudents.add(new Student("I","Pandora"));
 
+        Integer a = new Integer(10);
+        Integer b = new Integer(10);
+        b = a;
+
 
         return newStudents;
 
